@@ -12,6 +12,8 @@
   Expect_test_helpers)
  (libraries base expect-test-helpers letfun)
  (inline_tests)
+ (instrumentation
+  (backend bisect_ppx))
  (lint
   (pps ppx_js_style -allow-let-operators -check-doc-comments))
  (preprocess

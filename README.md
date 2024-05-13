@@ -1,6 +1,7 @@
 # letfun
 
 [![CI Status](https://github.com/mbarbin/letfun/workflows/ci/badge.svg)](https://github.com/mbarbin/letfun/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/mbarbin/letfun/badge.svg?branch=main)](https://coveralls.io/github/mbarbin/letfun?branch=main)
 
 `letfun` is a tiny library which allows you to use a let-binding style to handle
 functions applications that expects their last argument to be a closure. It uses
