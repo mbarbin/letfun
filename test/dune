@@ -9,7 +9,9 @@
   -open
   Base
   -open
-  Expect_test_helpers)
+  Expect_test_helpers
+  -open
+  Letfun)
  (libraries base expect-test-helpers letfun)
  (inline_tests)
  (instrumentation

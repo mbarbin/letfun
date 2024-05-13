@@ -1,6 +1,5 @@
 let%expect_test "let&-" =
   let () =
-    let open Letfun in
     let&- x = List.iter [ 1; 2; 3 ] in
     print_s [%sexp (x : int)]
   in
@@ -25,7 +24,6 @@ end = struct
 end
 
 let%expect_test "Resource" =
-  let open Letfun in
   let& x = Resource.with_t in
   let&- y = Resource.with_t_f in
   Resource.ignore x;
