@@ -1,0 +1,18 @@
+(library
+ (name letfun_test)
+ (flags
+  :standard
+  -w
+  +a-4-40-41-42-44-45-48-66
+  -warn-error
+  +a
+  -open
+  Base
+  -open
+  Expect_test_helpers)
+ (libraries base expect-test-helpers letfun)
+ (inline_tests)
+ (lint
+  (pps ppx_js_style -allow-let-operators -check-doc-comments))
+ (preprocess
+  (pps ppx_expect ppx_sexp_value)))
