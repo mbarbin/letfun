@@ -20,7 +20,7 @@
  (synopsis "Use let-binding with functions whose last argument is a closure")
  (depends
   (ocaml
-   (>= 5.1))
+   (>= 5.2))
   (base
    (and
     :with-test

@@ -9,7 +9,7 @@ doc: "https://mbarbin.github.io/letfun/"
 bug-reports: "https://github.com/mbarbin/letfun/issues"
 depends: [
   "dune" {>= "3.16"}
-  "ocaml" {>= "5.1"}
+  "ocaml" {>= "5.2"}
   "base" {with-test & >= "v0.17" & < "v0.18"}
   "bisect_ppx" {dev & >= "2.8.3"}
   "expect-test-helpers" {with-test & >= "v0.17" & < "v0.18"}
