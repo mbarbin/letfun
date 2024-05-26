@@ -24,8 +24,8 @@
   (base
    (and
     :with-test
-    (>= v0.16)
-    (< v0.17)))
+    (>= v0.17)
+    (< v0.18)))
   (bisect_ppx
    (and
     :dev
@@ -33,20 +33,20 @@
   (expect-test-helpers
    (and
     :with-test
-    (>= v0.16)
-    (< v0.17)))
+    (>= v0.17)
+    (< v0.18)))
   (ppx_expect
    (and
     :with-test
-    (>= v0.16)
-    (< v0.17)))
+    (>= v0.17)
+    (< v0.18)))
   (ppx_js_style
    (and
     :dev
-    (>= v0.16)
-    (< v0.17)))
+    (>= v0.17)
+    (< v0.18)))
   (ppx_sexp_value
    (and
     :with-test
-    (>= v0.16)
-    (< v0.17)))))
+    (>= v0.17)
+    (< v0.18)))))
