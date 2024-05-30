@@ -35,6 +35,8 @@
     :with-test
     (>= v0.17)
     (< v0.18)))
+  (ppxlib
+   (>= 0.32.2-preview.1))
   (ppx_expect
    (and
     :with-test
