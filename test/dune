@@ -1,5 +1,6 @@
 (library
  (name letfun_test)
+ (public_name letfun-tests)
  (flags
   :standard
   -w
@@ -9,10 +10,10 @@
   -open
   Base
   -open
-  Expect_test_helpers
+  Letfun
   -open
-  Letfun)
- (libraries base expect-test-helpers letfun)
+  Expect_test_helpers_base)
+ (libraries base expect_test_helpers_core.expect_test_helpers_base letfun)
  (inline_tests)
  (instrumentation
   (backend bisect_ppx))
