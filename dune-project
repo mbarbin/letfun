@@ -21,23 +21,38 @@
  (depends
   (ocaml
    (>= 5.2))
+  (bisect_ppx
+   (and
+    :dev
+    (>= 2.8.3)))
+  (ppx_js_style
+   (and
+    :dev
+    (>= v0.17)
+    (< v0.18)))))
+
+(package
+ (name letfun-tests)
+ (synopsis "Tests for letfun")
+ (depends
+  (ocaml
+   (>= 5.2))
   (base
    (and
-    :with-test
     (>= v0.17)
     (< v0.18)))
   (bisect_ppx
    (and
     :dev
     (>= 2.8.3)))
-  (expect-test-helpers
+  (expect_test_helpers_core
    (and
-    :with-test
     (>= v0.17)
     (< v0.18)))
+  (letfun
+   (= :version))
   (ppx_expect
    (and
-    :with-test
     (>= v0.17)
     (< v0.18)))
   (ppx_js_style
@@ -47,7 +62,6 @@
     (< v0.18)))
   (ppx_sexp_value
    (and
-    :with-test
     (>= v0.17)
     (< v0.18)))
   (ppxlib
