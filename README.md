@@ -26,7 +26,7 @@ let print_hello_world file =
   Out_channel.output_string oc "World\n"
 ```
 
-## Code documentation
+## Code Documentation
 
 The code documentation of the latest release is built with `odoc` and published
 to `GitHub` pages [here](https://mbarbin.github.io/letfun).
