@@ -15,6 +15,8 @@
 
 (documentation "https://mbarbin.github.io/letfun/")
 
+(implicit_transitive_deps false)
+
 (package
  (name letfun)
  (synopsis "Use let-binding with functions whose last argument is a closure")
