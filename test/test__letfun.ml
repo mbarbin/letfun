@@ -3,7 +3,8 @@ let%expect_test "let&-" =
     let&- x = List.iter [ 1; 2; 3 ] in
     print_s [%sexp (x : int)]
   in
-  [%expect {|
+  [%expect
+    {|
     1
     2
     3 |}]
