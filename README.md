@@ -24,6 +24,18 @@ let print_hello_world file =
   Out_channel.output_string oc "World\n"
 ```
 
+Note that many projects use the `@@` operator in certain situations:
+
+```ocaml
+let print_hello_world file =
+  Out_channel.with_open_text file
+  @@ fun oc ->
+  Out_channel.output_string oc "Hello, ";
+  Out_channel.output_string oc "World\n"
+```
+
+:warning: This library is highly experimental, do not use!
+
 ## Code Documentation
 
 The code documentation of the latest release is built with `odoc` and published to `GitHub` pages [here](https://mbarbin.github.io/letfun).
