@@ -1,6 +1,14 @@
 # letfun
 
-`letfun` is a tiny library which allows you to use a let-binding style to handle functions applications that expects their last argument to be a closure. It uses for this the `let&` operator.
+:warning: This repository is now a public archive. I am no longer maintaining it.
+
+This was a let-fun experiment! I've come across a few other projects with similar constructs. I may incorporate a similar operator in other projects, and I'll keep an eye on OCaml's stdlib for related developments.
+
+Happy let-binding!
+
+---
+
+`letfun` is a tiny library which allows you to use a let-binding style to handle functions applications that expect their last argument to be a closure. It uses for this the `let&` operator.
 
 For example:
 
